@@ -1,6 +1,10 @@
 body {
     background-image: url("../images/concrete-texture.png");
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;    
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 12px;
 }
 
 .header-style {
@@ -20,12 +24,13 @@ body {
 .wrapper {
     position: relative;
     top: 0;
-    width: 800px;
+    width: 960px;
     margin: 0 auto;
 }
 
 .navbar-brand-custom {
     color: #FFFFFF;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
     background-color: #4AAAA5;
     margin-top: 0px;
     float: left;
@@ -49,22 +54,23 @@ body {
 
 .section-style {
     margin-top: 150px;
-    margin: 150px auto 0px auto;
+    /* margin: 150px auto 0px auto; */
     padding: 20px;
-    width: 60%;
+    width: 100%;
     background: #FFFFFF;
-    border: 1px solid #CCCCCC;
+    border: 1px solid #dddddd;
 }
 
 .section-header {
     color: #4AAAA5;
-    border-bottom: 2px solid #CCCCCC;
+    border-bottom: 2px solid #dddddd;
 }
 
 .section-img {
     float: left;
     width: 150px;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 
